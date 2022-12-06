@@ -30,8 +30,8 @@ public class BaseClass {
 		
 		 }
 		 if (browserName.equals("firefox")) {
-			 Log.info("initilizing chrome browser");
-			 System.setProperty("webdriver.gecko.driver", "C:geckodriver.exe");
+			 Log.info("initilizing firefox browser");
+			 System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			 driver=new FirefoxDriver();
 		
 		 }

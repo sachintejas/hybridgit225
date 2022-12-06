@@ -3,15 +3,12 @@
   <groupId>practice</groupId>
   <artifactId>hybrid</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <properties>
-  <maven.complier.source>
-  1.8
-  </maven.complier.source>
-  <maven.complier.target>
-  1.8
-  </maven.complier.target>
   
-  </properties>
+ <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
   
   <build>
 		<plugins>

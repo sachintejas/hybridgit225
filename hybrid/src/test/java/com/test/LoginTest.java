@@ -27,7 +27,7 @@ public class LoginTest extends BaseClass{
 	
 	@Test
 	public void test02() {
-		Assert.assertEquals(driver.getTitle() , "JavaByKiran | Dashboard");
+		Assert.assertEquals(driver.getTitle() , "JavaByKiran | Dashboard1");
 	}
 	
 	@Test
